@@ -1,0 +1,1 @@
+{"compilerOptions":{"module":"commonjs","target":"es2016","skipLibCheck":true,"lib":["dom","es2016"],"moduleResolution":"node","types":["node"]},"include":["src/main.ts"]}

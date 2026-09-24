@@ -1,0 +1,269 @@
+# WordGame transcript - 2026-09-24T14:35:56.106Z
+[00:00.036] ============================================================
+[00:00.038] WordGame starting
+[00:00.039] ROBOT: Remote API at http://localhost:54321
+[00:00.514] ROBOT: Reachable
+[00:00.514] ============================================================
+[00:00.514] LLM: model "phi3:mini" at http://localhost:11434/api/chat
+[00:00.515] LLM: JSON mode ON
+[00:00.561] LLM: model "phi3:mini" is installed and ready.
+[00:00.562] ============================================================
+[00:01.239] Embedding moodel "nomic-embed-text" is ready (test: apple/banana = 0.543, threshold = 0.45)
+[00:01.240] ============================================================
+[00:01.241] LLM: warming up "phi3:mini" (loading into memory)...
+[00:01.247] ============================================================
+[00:01.247] GAZE DECK: 12 cards for this session (ms, in deal order)
+[00:01.247]   0, 400, 159, 833, 1012, 267, 167, 666, -67, 1700, 66, -167
+[00:01.247]   sorted: -167, -67, 0, 66, 159, 167, 267, 400, 666, 833, 1012, 1700
+[00:01.248]   median 217 ms, 2 of 12 eyes-first
+[00:01.248]   (measured data: median 233 ms, 24 of 139 eyes-first)
+[00:01.263] STATE: setup
+[00:01.304] STATE: attend
+[00:01.331] FURHAT: Hello! My name is Furhat. We will play a word game. I say a word, and you answer with a word that relates to it. For example, if I say apple you can say banana. Then I answer your word, and we keep going back and forth. You can ask me why I chose a word, and if you don't accept my explanation, you get a point. And the same goes for me! We will play for 5 minutes. I can start if you are ready. Please say ready if you are ready. Then, give me some time to think!
+[00:01.333] STATE: greet
+[00:06.032] LLM: warm-up done in 4.8s.
+[00:37.284] STATE: listenReady
+[00:37.300] (Re)Starting to listen.
+[00:41.010] USER: okay I'm ready
+[00:41.012] STATE: startGame
+[00:41.013] FURHAT: Alright! I will start. My word is... apple
+[00:41.014] STATE: sayStartWord
+[00:46.431] STATE: listenWord
+[00:46.451] (Re)Starting to listen.
+[00:49.503] USER: banana
+[00:49.514] STATE: checkRelated
+[00:49.515] RELATEDNESS: apple -> banana = 0.543 (threshold 0.45) ok
+[00:49.523] STATE: think
+[00:49.546] GAZE: looking away to -8,-10,100 while thinking
+[00:57.750] GAZE: back to the player 167 ms before speaking
+[00:57.752] STATE: respond
+[00:57.919] FURHAT: peel
+[00:59.088] STATE: listenWord
+[00:59.097] (Re)Starting to listen.
+[01:04.361] (Re)Starting to listen.
+[01:09.525] SYSTEM: (no speech within 10 seconds)
+[01:09.528] FURHAT: My word is peel.
+[01:09.530] STATE: didNotCatch
+[01:11.760] STATE: listenWord
+[01:11.770] (Re)Starting to listen.
+[01:16.923] (Re)Starting to listen.
+[01:22.034] USER: Orange
+[01:22.040] STATE: checkRelated
+[01:22.117] RELATEDNESS: peel -> orange = 0.456 (threshold 0.45) ok
+[01:22.120] STATE: think
+[01:22.131] GAZE: looking away to -11,3,100 while thinking
+[01:26.133] FURHAT: juice
+[01:26.135] STATE: respond
+[01:26.200] GAZE: back to the player 66 ms after speaking
+[01:27.608] STATE: listenWord
+[01:27.614] (Re)Starting to listen.
+[01:32.763] (Re)Starting to listen.
+[01:34.639] USER: liquid
+[01:34.642] STATE: checkRelated
+[01:34.718] RELATEDNESS: juice -> liquid = 0.689 (threshold 0.45) ok
+[01:34.722] STATE: think
+[01:34.737] GAZE: looking away to -3,11,100 while thinking
+[01:37.989] FURHAT: sink
+[01:37.991] STATE: respond
+[01:39.690] GAZE: back to the player 1700 ms after speaking
+[01:39.715] STATE: listenWord
+[01:39.723] (Re)Starting to listen.
+[01:42.567] USER: what
+[01:42.571] FURHAT: My word is sink. sink.
+[01:42.572] STATE: sayAgain
+[01:46.112] STATE: listenWord
+[01:46.117] (Re)Starting to listen.
+[01:50.208] USER: why is it related
+[01:50.211] FURHAT: A sink is used to drain liquid from dishes. Do you think that's valid?
+[01:50.212] STATE: explainMotivation
+[01:55.413] STATE: listenChallenge
+[01:55.425] (Re)Starting to listen.
+[01:58.373] USER: okay
+[01:58.383] FURHAT: Okay! Now it's your turn again. I just said sink.
+[01:58.386] STATE: repeatWord
+[02:04.263] STATE: listenWord
+[02:04.282] (Re)Starting to listen.
+[02:08.228] USER: dishes
+[02:08.233] STATE: checkRelated
+[02:08.310] RELATEDNESS: sink -> dishes = 0.579 (threshold 0.45) ok
+[02:08.312] STATE: think
+[02:08.317] GAZE: looking away to 18,-13,100 while thinking
+[02:12.704] GAZE: back to the player 67 ms before speaking
+[02:12.705] STATE: respond
+[02:12.773] FURHAT: plate
+[02:14.142] STATE: listenWord
+[02:14.148] (Re)Starting to listen.
+[02:19.303] USER: pallet
+[02:19.306] STATE: checkRelated
+[02:19.382] RELATEDNESS: plate -> pallet = 0.507 (threshold 0.45) ok
+[02:19.384] STATE: think
+[02:19.392] GAZE: looking away to -15,7,100 while thinking
+[02:22.595] FURHAT: stack
+[02:22.596] STATE: respond
+[02:23.263] GAZE: back to the player 666 ms after speaking
+[02:24.016] STATE: listenWord
+[02:24.022] (Re)Starting to listen.
+[02:29.776] USER: why why did you say that
+[02:29.778] FURHAT: A stack of goods is often transported on a pallet. Do you think that's valid?
+[02:29.779] STATE: explainMotivation
+[02:35.482] STATE: listenChallenge
+[02:35.497] (Re)Starting to listen.
+[02:37.981] USER: okay
+[02:37.983] FURHAT: Okay! Now it's your turn again. I just said stack.
+[02:37.984] STATE: repeatWord
+[02:43.779] STATE: listenWord
+[02:43.789] (Re)Starting to listen.
+[02:46.575] USER: crack
+[02:46.579] STATE: checkRelated
+[02:46.660] RELATEDNESS: stack -> crack = 0.454 (threshold 0.45) ok
+[02:46.664] STATE: think
+[02:46.675] GAZE: looking away to 22,8,100 while thinking
+[02:49.977] FURHAT: glass
+[02:49.978] STATE: respond
+[02:50.144] GAZE: back to the player 167 ms after speaking
+[02:51.296] STATE: listenWord
+[02:51.303] (Re)Starting to listen.
+[02:58.670] USER: why did you say it's a glass
+[02:58.671] FURHAT: Glass can crack when dropped, revealing its fragile nature. Do you think that's valid?
+[02:58.672] STATE: explainMotivation
+[03:05.277] STATE: listenChallenge
+[03:05.281] (Re)Starting to listen.
+[03:10.428] USER: oh you misunderstood actually I said black
+[03:10.431] FURHAT: Do you agree with my motivation?
+[03:10.433] STATE: challengeReprompt
+[03:12.613] STATE: listenChallenge
+[03:12.618] (Re)Starting to listen.
+[03:17.866] USER: s but I changed I said that something else
+[03:17.867] FURHAT: Do you agree with my motivation?
+[03:17.870] STATE: challengeReprompt
+[03:20.000] STATE: listenChallenge
+[03:20.009] (Re)Starting to listen.
+[03:23.494] USER: yes okay
+[03:23.495] FURHAT: Okay! Now it's your turn again. I just said glass.
+[03:23.497] STATE: repeatWord
+[03:29.296] STATE: listenWord
+[03:29.309] (Re)Starting to listen.
+[03:34.061] USER: break
+[03:34.066] STATE: checkRelated
+[03:34.144] RELATEDNESS: glass -> break = 0.415 (threshold 0.45) BELOW threshold
+[03:34.145] FURHAT: Did you say break?
+[03:34.146] STATE: confirmWord
+[03:36.319] STATE: listenConfirm
+[03:36.328] (Re)Starting to listen.
+[03:38.505] USER: yeah
+[03:38.508] FURHAT: I don't think break and glass are related. Are you sure about your answer?
+[03:38.509] STATE: challengeUser
+[03:44.011] STATE: listenVerdict
+[03:44.021] (Re)Starting to listen.
+[03:46.808] USER: yeah sure
+[03:46.811] FURHAT: Okay, let's continue.
+[03:46.812] STATE: sureAccepted
+[03:48.935] STATE: think
+[03:48.944] GAZE: looking away to -25,15,100 while thinking
+[03:52.649] FURHAT: shatter
+[03:52.650] STATE: respond
+[03:52.918] GAZE: back to the player 267 ms after speaking
+[03:53.969] STATE: listenWord
+[03:53.976] (Re)Starting to listen.
+[03:58.414] USER: better
+[03:58.417] STATE: checkRelated
+[03:58.493] RELATEDNESS: shatter -> better = 0.379 (threshold 0.45) BELOW threshold
+[03:58.495] FURHAT: Did you say better?
+[03:58.496] STATE: confirmWord
+[04:00.370] STATE: listenConfirm
+[04:00.378] (Re)Starting to listen.
+[04:03.406] USER: I said better
+[04:03.409] FURHAT: Sorry, was your word better?
+[04:03.411] STATE: confirmReprompt
+[04:06.041] STATE: listenConfirm
+[04:06.046] (Re)Starting to listen.
+[04:08.927] USER: no like butter
+[04:08.929] FURHAT: What was your word?
+[04:08.930] STATE: askAgain
+[04:10.549] STATE: listenWord
+[04:10.555] (Re)Starting to listen.
+[04:13.435] USER: my word was butter
+[04:13.439] STATE: checkRelated
+[04:13.509] RELATEDNESS: shatter -> butter = 0.464 (threshold 0.45) ok
+[04:13.512] STATE: think
+[04:13.518] GAZE: looking away to 22,11,100 while thinking
+[04:17.329] FURHAT: bake
+[04:17.335] STATE: respond
+[04:18.341] GAZE: back to the player 1012 ms after speaking
+[04:18.554] STATE: listenWord
+[04:18.562] (Re)Starting to listen.
+[04:21.542] USER: cake
+[04:21.545] STATE: checkRelated
+[04:21.630] RELATEDNESS: bake -> cake = 0.635 (threshold 0.45) ok
+[04:21.633] STATE: think
+[04:21.644] GAZE: looking away to 11,-24,100 while thinking
+[04:25.454] FURHAT: oven
+[04:25.456] STATE: respond
+[04:26.289] GAZE: back to the player 833 ms after speaking
+[04:26.773] STATE: listenWord
+[04:26.779] (Re)Starting to listen.
+[04:31.671] USER: Lake
+[04:31.675] STATE: checkRelated
+[04:31.751] RELATEDNESS: oven -> lake = 0.343 (threshold 0.45) BELOW threshold
+[04:31.753] FURHAT: Did you say lake?
+[04:31.754] STATE: confirmWord
+[04:33.627] STATE: listenConfirm
+[04:33.636] (Re)Starting to listen.
+[04:36.613] USER: yes I said like
+[04:36.615] FURHAT: I don't think lake and oven are related. Are you sure about your answer?
+[04:36.615] STATE: challengeUser
+[04:41.961] STATE: listenVerdict
+[04:41.975] (Re)Starting to listen.
+[04:44.861] USER: yeah
+[04:44.863] FURHAT: Okay, let's continue.
+[04:44.864] STATE: sureAccepted
+[04:47.037] STATE: think
+[04:47.045] GAZE: looking away to -4,-7,100 while thinking
+[04:50.239] FURHAT: fish
+[04:50.241] STATE: respond
+[04:50.399] GAZE: back to the player 159 ms after speaking
+[04:51.205] STATE: listenWord
+[04:51.211] (Re)Starting to listen.
+[04:56.453] USER: ch
+[04:56.455] FURHAT: My word is fish.
+[04:56.456] STATE: didNotCatch
+[04:58.583] STATE: listenWord
+[04:58.589] (Re)Starting to listen.
+[05:02.072] USER: my word is chime
+[05:02.076] STATE: checkRelated
+[05:02.154] RELATEDNESS: fish -> chime = 0.388 (threshold 0.45) BELOW threshold
+[05:02.156] FURHAT: Did you say chime?
+[05:02.157] STATE: confirmWord
+[05:04.027] STATE: listenConfirm
+[05:04.035] (Re)Starting to listen.
+[05:07.716] USER: no I said chmury
+[05:07.718] STATE: checkRelated
+[05:07.800] RELATEDNESS: fish -> chmury = 0.485 (threshold 0.45) ok
+[05:07.804] STATE: think
+[05:07.812] GAZE: looking away to 6,15,100 while thinking
+[05:12.622] FURHAT: seafood
+[05:12.624] STATE: respond
+[05:13.023] GAZE: back to the player 400 ms after speaking
+[05:14.246] STATE: listenWord
+[05:14.250] (Re)Starting to listen.
+[05:17.630] USER: why
+[05:17.632] FURHAT: Seafood, like fish, is a common type of food that can be prepared by frying or baking. Do you think that's valid?
+[05:17.633] STATE: explainMotivation
+[05:25.949] STATE: listenChallenge
+[05:25.959] (Re)Starting to listen.
+[05:31.359] USER: no you said something at a related to your own word
+[05:31.361] FURHAT: Do you agree with my motivation?
+[05:31.363] STATE: challengeReprompt
+[05:33.490] STATE: listenChallenge
+[05:33.499] (Re)Starting to listen.
+[05:36.073] USER: no
+[05:36.075] FURHAT: Fair enough, you get a point. My word is still seafood.
+[05:36.077] STATE: userScores
+[05:41.311] FURHAT: Time's up. That's five minutes! Final score: you 1, me 0. You win! Thanks for playing!
+[05:41.312] STATE: gameOver
+[05:52.230] Game over.
+[05:52.231] SYSTEM: GAZE DECK: 11 cards dealt this session
+[05:52.232] SYSTEM:   in order : -167, 66, 1700, -67, 666, 167, 267, 1012, 833, 159, 400 ms
+[05:52.232] SYSTEM:   median 267 ms   mean 458 ms   eyes-first 2/11 (18%)
+[05:52.232] SYSTEM:   measured : median 233 ms   mean 426 ms   eyes-first 24/139 (17%)
+[05:52.233] Transcript saved to: /home/bora/Desktop/WordGame/transcripts/transcript-2026-09-24_14-35-56.txt

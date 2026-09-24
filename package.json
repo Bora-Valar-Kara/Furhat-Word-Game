@@ -1,0 +1,1 @@
+{"name":"wg","dependencies":{"@types/node":"^22.7.2","xstate":"^5.28.0"},"devDependencies":{"tsx":"^4.20.5","typescript":"^5.2.2"}}
