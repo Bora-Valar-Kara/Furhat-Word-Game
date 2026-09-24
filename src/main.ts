@@ -658,7 +658,7 @@ const gameMachine = setup({
             "You can ask me why I chose a word, and if you don't accept my " +
             "explanation, you get a point. And the same goes for me! " +
             "We will play for 5 minutes. I can start if you are ready. " +
-            "Please say ready if you are ready. Then, give me some time to think!",
+            "Are you ready?",
         },
         onDone: { target: "listenReady" },
         onError: { target: "listenReady" },
