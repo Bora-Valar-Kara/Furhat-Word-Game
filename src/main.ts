@@ -655,8 +655,10 @@ const gameMachine = setup({
             "I say a word, and you answer with a word that relates to it. " +
             "For example, if I say apple you can say banana. " +
             "Then I answer your word, and we keep going back and forth. " +
-            "You can ask me why I chose a word, and if you don't accept my " +
-            "explanation, you get a point. And the same goes for me! " +
+            "You can ask me why I chose a word, and if you don't accept my explanation, you get a point. And the same goes for me!" +
+            "So, if you want to challenge my answers that you think is not related to your answers, you can ask, 'why' questions. For example, 'Why did you say apple?' " +
+            "If you think I misunderstood your word, you can say 'I said apple, not banana.', for example." +
+            "If you did not understand what I said, you can ask 'what' questions. For example, 'What did you say?' or 'What is that?' " +
             "We will play for 5 minutes. I can start if you are ready. " +
             "Are you ready?",
         },
